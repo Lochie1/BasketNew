@@ -7,17 +7,11 @@
     android:id="@+id/basket"
     android:background="#2583ec">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Basket"
-        android:id="@+id/textView"
-        android:textSize="65dp"
-        android:textStyle="bold|normal|italic"
-        android:textColor="#ffffff"
-        android:layout_marginTop="119dp"
+        android:id="@+id/imageView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp" />
 </RelativeLayout>

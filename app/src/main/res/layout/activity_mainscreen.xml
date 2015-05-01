@@ -13,11 +13,11 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Basket"
         android:id="@+id/textView"
-        android:textSize="50dp"
+        android:textSize="65dp"
         android:textStyle="bold|normal|italic"
         android:textColor="#ffffff"
+        android:layout_marginTop="119dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="155dp" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

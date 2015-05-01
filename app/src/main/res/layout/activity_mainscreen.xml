@@ -31,6 +31,8 @@
         android:src="@mipmap/tmaillogo"
         android:layout_below="@+id/loading"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="61dp" />
+        android:layout_marginTop="61dp"
+        android:paddingLeft="100dp"
+        android:paddingTop="100dp" />
 
 </RelativeLayout>

@@ -3,13 +3,24 @@ package com.basket.tmail.basket;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
-
+import android.widget.RelativeLayout;
+import android.widget.Button;
 
 public class MainMenu extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+        RelativeLayout basketlayout = new RelativeLayout(this);
+
+        Button messagebutton = new Button(this);
+
+        basketlayout.addView(messagebutton);
+        setContentView(basketlayout);
+
+
         setContentView(R.layout.activity_menu);
     }
 

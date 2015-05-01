@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.util.Log;
+import android.widget.RelativeLayout;
+import android.widget.Button;
 
 
 public class mainscreen extends Activity {
@@ -16,6 +18,7 @@ public class mainscreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainscreen);
         Log.i(TAG,"On Create");
+
     }
 
     @Override

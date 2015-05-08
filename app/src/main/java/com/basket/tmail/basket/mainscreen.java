@@ -19,7 +19,12 @@ public class mainscreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainscreen);
         Log.i(TAG,"On Create");
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i(TAG, "onStart");
         try {
             Thread.currentThread().sleep(2000);
         } catch (InterruptedException e) {
@@ -28,12 +33,6 @@ public class mainscreen extends Activity {
 
         Intent i = new Intent(mainscreen.this, MainMenu.class);
         startActivity(i);
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.i(TAG, "onStart");
     }
 
 
@@ -106,4 +105,6 @@ public class mainscreen extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
+

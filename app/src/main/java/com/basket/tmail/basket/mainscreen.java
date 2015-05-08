@@ -1,6 +1,7 @@
 package com.basket.tmail.basket;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,6 +20,14 @@ public class mainscreen extends Activity {
         setContentView(R.layout.activity_mainscreen);
         Log.i(TAG,"On Create");
 
+        try {
+            Thread.currentThread().sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        Intent i = new Intent(mainscreen.this, MainMenu.class);
+        startActivity(i);
     }
 
     @Override

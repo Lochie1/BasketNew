@@ -7,11 +7,13 @@
     android:id="@+id/basket"
     android:background="@mipmap/firstbackground">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_margin="110dp" />
+
 </RelativeLayout>

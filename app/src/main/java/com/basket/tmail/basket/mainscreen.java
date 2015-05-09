@@ -32,6 +32,7 @@ public class mainscreen extends Activity {
 
                 // close this activity
                 finish();
+                overridePendingTransition(R.anim.mainfadein, R.anim.splashfadeout);
             }
         }, SPLASH_TIME_OUT);
     }

@@ -3,8 +3,10 @@ package com.basket.tmail.basket;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.Button;
+import android.content.Intent;
 
 public class MainMenu extends Activity {
 
@@ -21,8 +23,21 @@ public class MainMenu extends Activity {
         setContentView(basketlayout);
 
 
-        setContentView(R.layout.activity_menu);
-    }
+        setContentView(R.layout.activity_menu); }
+
+        public void messages(View view){
+           Intent intent = new Intent(MainMenu.this, messages.class);
+            startActivity(intent);}
+
+        public void email(View view){
+           Intent intent1 = new Intent(MainMenu.this, email.class);
+            startActivity(intent1);}
+
+        public void settings(View view){
+           Intent intent2 = new Intent(MainMenu.this, Settings.class);
+           startActivity(intent2);}
+
+
 
 
 

@@ -20,7 +20,19 @@
         <activity
             android:name=".MainMenu"
             android:label="@string/title_activity_menu"
-            android:theme="@android:style/Theme.NoTitleBar">
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".messages"
+            android:label="@string/title_activity_messages" >
+        </activity>
+        <activity
+            android:name=".email"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
         </activity>
     </application>
 

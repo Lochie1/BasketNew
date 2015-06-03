@@ -1,9 +1,11 @@
 package com.basket.tmail.basket;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class email extends Activity {
@@ -11,8 +13,14 @@ public class email extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_email);
-    }
+        setContentView(R.layout.activity_email);}
+
+    public void emailback(View view){
+        Intent intent2 = new Intent(email.this, MainMenu.class);
+        startActivity(intent2);}
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
